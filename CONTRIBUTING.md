@@ -1,4 +1,4 @@
-# Contributing to DevLinks
+# Contributing to TaskTally
 
 Thanks for helping out! Keep contributions small and friendly.
 

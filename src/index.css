@@ -1,17 +1,23 @@
-:root { --brand: #4f46e5; }
+:root { --brand: #059669; }
 
-body { font-family: system-ui, sans-serif; background: #f5f6fb; margin: 0; color: #1b1f2a; }
+body { font-family: system-ui, sans-serif; background: #f0fdf9; margin: 0; color: #062b22; }
 
-.card { max-width: 420px; margin: 2rem auto; background: #fff; border-radius: 16px; padding: 2rem; text-align: center; }
-.avatar { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; }
-.bio { color: #5b6472; }
+.card { max-width: 440px; margin: 2rem auto; background: #fff; border-radius: 16px; padding: 2rem; }
+.logo { width: 40px; height: 40px; }
+header { text-align: center; }
 
-.links { display: flex; flex-direction: column; gap: 0.6rem; margin-top: 1.2rem; }
+.add { display: flex; gap: 0.5rem; margin: 1rem 0; }
+.input { flex: 1; padding: 0.6rem; border: 1px solid #cbd5d0; border-radius: 8px; }
 
-.btn { padding: 0.7rem 1rem; border-radius: 10px; border: none; cursor: pointer; text-decoration: none; font-size: 1rem; }
-/* BUG (issue #5): primary button uses grey placeholder instead of var(--brand) */
+.tasks { list-style: none; padding: 0; }
+.tasks li { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 0; border-bottom: 1px solid #eef2f0; }
+.tasks li.done label { text-decoration: line-through; color: #94a3a0; }
+.link { background: none; border: none; color: #ef4444; cursor: pointer; }
+
+.counter { text-align: center; color: #4b5f5a; }
+
+.btn { padding: 0.6rem 1rem; border-radius: 8px; border: none; cursor: pointer; font-size: 1rem; }
+/* BUG (issue #10): primary button uses a grey placeholder instead of var(--brand). */
 .btn-primary { background: #999999; color: #fff; }
-/* BUG (issue #12): buttons have no :hover state */
-/* BUG (issue #8): layout is not responsive on small screens (no @media rule) */
 
-footer { margin-top: 1.5rem; color: #8a90a2; font-size: 0.85rem; }
+footer { margin-top: 1.5rem; text-align: center; color: #7ba69b; font-size: 0.85rem; }

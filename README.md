@@ -1,12 +1,12 @@
-<h1 align="center">OpenNest · DevLinks (React)</h1>
-<p align="center">A tiny, friendly personal-links page — a great place for your first pull request.</p>
+<h1 align="center">OpenNest · TaskTally (React)</h1>
+<p align="center">A tiny, friendly task list with a live "remaining" counter — a great place for your first pull request.</p>
 <p align="center">
   <img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen">
   <img alt="good first issues" src="https://img.shields.io/badge/good%20first%20issues-available-7057ff">
   <img alt="license" src="https://img.shields.io/badge/license-MIT-blue">
 </p>
 
-> **DevLinks** is a beginner-friendly React project maintained by **OpenNest**. New contributors are very welcome — pick a `good first issue` and open your first pull request.
+> **TaskTally** is a beginner-friendly React project maintained by **OpenNest**. Add tasks, tick them off, and watch the remaining counter. New contributors are very welcome — pick a `good first issue` and open your first pull request.
 
 ## Run it locally
 ```bash

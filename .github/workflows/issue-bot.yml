@@ -1,4 +1,4 @@
-name: DevLinks Issue Bot
+name: TaskTally Issue Bot
 on:
   issues:
     types: [opened]
