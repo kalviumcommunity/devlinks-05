@@ -4,8 +4,6 @@ import AddTask from './components/AddTask.jsx'
 import TaskList from './components/TaskList.jsx'
 import Counter from './components/Counter.jsx'
 import Footer from './components/Footer.jsx'
-// BUG (issue #11): unused import left in the file
-import { useCallback } from 'react'
 
 let nextId = 3
 
